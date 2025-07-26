@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="109" height="57" viewBox="0 0 109 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 25.841 51.658 C 25.841 49.771 27.705 48.303 29.835 48.512 L 93.965 54.806 C 102.111 55.606 109.003 49.558 108.122 42.384 C 107.204 34.931 98.437 30.326 90.551 33.154 L 30.793 54.588 C 28.429 55.436 25.841 53.905 25.841 51.658 Z" fill="url(#paint0_linear_2205_14)" style=""/>
+  <defs>
+    <linearGradient id="paint0_linear_2205_14" x1="219.1" y1="39.9983" x2="202.599" y2="91.4037" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2.048772, 0, 0, 1.803507, -113.47522, -24.793466)">
+      <stop stop-color="#DF8908"/>
+      <stop offset="1" stop-color="#B415FF"/>
+    </linearGradient>
+  </defs>
+  <text style="fill: rgb(253, 253, 253); font-family: Arial, sans-serif; font-size: 28px; font-weight: 700; white-space: pre;" x="2.908" y="43.467">SAHAR</text>
+</svg>
