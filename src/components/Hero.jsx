@@ -1,14 +1,14 @@
 import React from 'react';
 import profile from '../assets/profile.svg';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import Resume from '../assets/resume.pdf';
+import Resume from '../assets/resume.png';
 
 const Hero = () => {
   
   const handleDownload = () => {
   const link = document.createElement("a");
   link.href = Resume;
-  link.download = "resume.pdf";
+  link.download = "resume.png";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);

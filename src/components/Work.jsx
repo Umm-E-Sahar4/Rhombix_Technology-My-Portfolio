@@ -15,12 +15,37 @@ const Work = () => {
 
       <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-10 w-full">
         {mywork_data.map((work, index) => (
-          <img
+          <div
             key={index}
-            src={work.w_img}
-            alt=""
-            className="w-full h-full max-w-[419px] max-h-[280px] object-cover transition-transform duration-300 ease-in-out cursor-pointer hover:scale-110 hover:rounded-lg hover:border-4 hover:border-amber-500"
-          />
+            className="flex flex-col items-center bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105"
+          >
+            {/* Black background added here */}
+            <div className="w-full h-[200px] bg-black">
+              <img
+                src={work.w_img}
+                alt={`Project ${index + 1}`}
+                className="w-full h-full object-contain hover:scale-110 hover:rounded-lg hover:border-4 hover:border-amber-500 transition-transform duration-300"
+              />
+            </div>
+            <div className="flex justify-between gap-4 py-4 px-2">
+              <a
+                href={work.source_code}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700 transition"
+              >
+                Source Code
+              </a>
+              <a
+                href={work.preview_link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-500 transition"
+              >
+                Preview
+              </a>
+            </div>
+          </div>
         ))}
       </div>
 
@@ -32,4 +57,5 @@ const Work = () => {
   )
 }
 
-export default Work
+export default Work;
+
